@@ -13,7 +13,7 @@ namespace alanlo_gammon_devops.Controllers
     {
         public string Get(int id)
         {
-            return "Hello World!";
+            return "Hello World 2.0!";
         }
     }
 }
