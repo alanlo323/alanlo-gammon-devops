@@ -13,8 +13,8 @@ namespace alanlo_gammon_devops.Controllers
             TelemetryConfiguration configuration = TelemetryConfiguration.CreateDefault();
             configuration.InstrumentationKey = "61b7fb78-d207-411d-b7c5-59df48e5703f";
             var telemetryClient = new TelemetryClient(configuration);
-            telemetryClient.TrackTrace($@"Greeting Controller Get Id: {id}");
-            return "Hello World 3.0!";
+            telemetryClient.TrackTrace($@"4.0 Greeting Controller Get Id: {id}");
+            return "Hello World 4.0!";
         }
     }
 }
